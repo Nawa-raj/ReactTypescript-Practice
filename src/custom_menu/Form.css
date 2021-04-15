@@ -1,0 +1,77 @@
+.form__dataView {
+  padding: 20px;
+  width: 100%;
+  background-color: rgb(235, 244, 248);
+}
+/* .Form__control {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+} */
+
+.form__dataView h1 {
+  /* padding-left: 10px; */
+  font-weight: bold;
+  color: purple;
+}
+
+.Form__card__container {
+  padding-top: 20px;
+}
+
+.Form__card__container:first-child {
+  margin-top: 0;
+}
+
+.data__head {
+  color: rgb(24, 24, 78);
+  font-weight: bold;
+  font-size: auto;
+}
+
+.data {
+  font-style: italic;
+  color: rgb(39, 81, 160);
+  font-size: auto;
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+.Edit__Icon__hover:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.Delete__Icon__hover:hover {
+  color: red;
+  cursor: pointer;
+  color: #aaaaaa;
+}
+
+.card__control {
+  margin-top: 20px;
+}
+
+.card__control:first-child {
+  margin-top: 0;
+}
+
+.card__control .ant-card-body {
+  padding: 10px 20px 20px 20px;
+}
+
+.due__dateControl {
+  /* float: right; */
+  text-align: right;
+  color: #aaaaaa;
+  margin-top: 0;
+  clear: right;
+  font-size: 13px;
+}
+
+.todo__taskTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #525151;
+  text-align: center;
+}
