@@ -5,8 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
+<React.StrictMode>
+    <RecoilRoot>
+      <StateProvider initialState={initialState} reducer={reducer}>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </StateProvider>
+    </RecoilRoot>
   </React.StrictMode>,
   document.getElementById('root')
 );
